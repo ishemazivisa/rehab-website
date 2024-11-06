@@ -1,0 +1,92 @@
+body{
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color:rgb(240, 238, 238);
+    padding: 1em;
+    text-align: center;
+}
+.logo{
+    display: flow-root;
+    margin-right: 0px;
+}
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-right: 22px;
+}
+nav a {
+    color: rgb(226, 215, 215);
+    text-decoration:underline;
+}
+main {
+    background-image:linear-gradient(320deg, green, rgb(102, 102, 198));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    padding: 2em;
+}
+section {
+    background-color:none;
+    padding: 4em;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #131212;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -8px;
+    width: 0px;
+    font-size: 33px;
+    height: 48px;
+    padding: 0px;
+}
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.service-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card {
+    margin: 20px;
+    paddding: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color:#333;
+    color: #fff;
+    padding: 1em;
+    text-align:center;
+    clear:both;
+}
